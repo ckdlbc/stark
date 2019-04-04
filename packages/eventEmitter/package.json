@@ -1,0 +1,31 @@
+{
+  "name": "@stark/eventEmitter",
+  "version": "0.3.15",
+  "description": "一个高性能的发布订阅类，适用于 Node.js 和 Browser",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w"
+  },
+  "homepage": "https://github.com/ckdlbc/stark",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ckdlbc/stark.git"
+  },
+  "author": "Arvinsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckdlbc/stark/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eventemitter3": "^3.1.0"
+  },
+  "gitHead": "7e1b7a3569825d56f277dccacb950de3f211cd36"
+}

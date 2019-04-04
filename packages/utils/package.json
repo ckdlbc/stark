@@ -1,0 +1,31 @@
+{
+  "name": "@stark/utils",
+  "version": "0.3.14",
+  "description": "常用的JS函数工具库",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w"
+  },
+  "homepage": "https://github.com/ckdlbc/stark",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ckdlbc/stark.git"
+  },
+  "author": "Arvinsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckdlbc/stark/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18"
+  },
+  "gitHead": "c9fb854310884eafd30979fc32532f96dbbc42d3"
+}

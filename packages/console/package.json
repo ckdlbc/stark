@@ -1,0 +1,28 @@
+{
+  "name": "@stark/console",
+  "version": "0.3.14",
+  "description": "一个优雅的console类，适用于 Node.js 和 Browser",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -b .",
+    "watch": "tsc -w"
+  },
+  "homepage": "https://github.com/ckdlbc/stark",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ckdlbc/stark.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Arvinsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckdlbc/stark/issues"
+  },
+  "gitHead": "c9fb854310884eafd30979fc32532f96dbbc42d3"
+}
